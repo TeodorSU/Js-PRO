@@ -14,7 +14,7 @@ const renderProduct = ({title = 'Undefined', price}, img = 'https://placehold.it
                     <h3>${title}</h3>
                     <p>${price}</p>
                 </div>
-               <button class="btn_buy" type="button">Купить</button>
+               <button class="" type="button">Купить</button>
             </div>      
         </div>
     `;
