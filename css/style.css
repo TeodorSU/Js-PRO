@@ -25,6 +25,7 @@ header{
     width: 100px;
     display: flex;
     justify-content: center;
+    position: fixed;
     align-items: center;
     margin-top: 20px;
     margin-right: 2%;
@@ -36,6 +37,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 
 .product-item {
     width: 250px;
@@ -58,3 +60,35 @@ header{
     font-size: 20px;
     font-weight: bold;
 }
+
+.cart {
+    display: block;
+    position: fixed;
+    margin-top: 100px;
+    margin-right: 25px;
+    height: 200px;
+    overflow: auto;
+    width: 400px;
+    background-color: rgba(255, 255, 128, 0.5);;
+}
+.cart_item {
+    margin-top: 15px;
+    margin-left: 10px ;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 20px;
+}
+.cart_item input {
+    width: 20px;
+    height: 10px;
+}
+
+.btn-del {
+    height: 15px;
+    width: 50px;
+    font-size: 10px;
+}
+
